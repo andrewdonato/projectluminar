@@ -1,0 +1,57 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cf:after = {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box-model = {
+  width: 200px;
+  height: 200px;
+  border: 200px;
+  padding: 200px;
+}
+
+
+body {
+  background-image: ../projectluminar/resources/luminar.png;
+  background-color: #100F0D;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  /*background-size: 102% 102%;*/
+}
+
+/*.container {
+    width: 418px;
+    height: 240px;
+    overflow: hidden;
+}*/
+.container img {
+    position: center;
+
+    height: 104%;
+    width: 104%;
+}
+
+
+.button {
+  position: center;
+  width: 200;
+  height: 200;
+  border: 3px;
+  color: red;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: default;
+}
+
+a .aboutusbutton :hover {
+    text-shadow: true;
+}
