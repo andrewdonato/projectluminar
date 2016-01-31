@@ -82,11 +82,6 @@ var mouseHoverOnButton = function(color){
 
 
 
-// mouseActions()
-//   hover
-//   click
-
-
 // var getLocationOfMouse = function(){
 //   $('.container').on('click', function(event){
 //   // $('body').on('click', function(event){

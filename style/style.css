@@ -40,7 +40,7 @@ body {
     width: 104%;
 }
 
-
+/*
 .button {
   position: center;
   width: 200;
@@ -51,7 +51,33 @@ body {
   border-color: transparent;
   cursor: default;
 }
-
+*/
+/*
 a .aboutusbutton :hover {
-    text-shadow: true;
+  text-shadow: true;
+}
+*/
+.hovertext {
+  border: 3px;
+  border-color: red;
+  position: absolute;
+/*  top: 0;
+  right: 0;
+  width: 200;
+*/
+
+}
+
+.hovertext p {
+
+  /* font-size doesn't work*/
+  font-size: 12;
+
+  /*color: #FFFAF0;*/
+  /*color: #D3D3D3;*/
+  /*color: #C0C0C0;*/
+  color: #A9A9A9; /* winner so far */
+  /*color:  #696969;*/ /*second place*/
+  /*color: #708090;*/
+  /*color: #778899;*/
 }
