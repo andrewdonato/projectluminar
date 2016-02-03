@@ -60,7 +60,10 @@ a .aboutusbutton :hover {
 .hovertext {
   border: 3px;
   border-color: red;
+  border-style: solid;
   position: absolute;
+  z-index:  100;
+  left: 100px;
 /*  top: 0;
   right: 0;
   width: 200;
@@ -69,14 +72,16 @@ a .aboutusbutton :hover {
 }
 
 .hovertext p {
+  border-color: pink;
+  border-style: solid;
+  border-width: 1px;
 
-  /* font-size doesn't work*/
-  font-size: 12;
+  font-size: 12; /* font-size doesn't change when argument changes */
 
+  color: #A9A9A9; /* winner so far */
   /*color: #FFFAF0;*/
   /*color: #D3D3D3;*/
   /*color: #C0C0C0;*/
-  color: #A9A9A9; /* winner so far */
   /*color:  #696969;*/ /*second place*/
   /*color: #708090;*/
   /*color: #778899;*/
