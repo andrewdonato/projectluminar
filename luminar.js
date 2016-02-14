@@ -32,53 +32,69 @@ var checkForButtons = function(mousePositionX, mousePositionY) {
   if(mousePositionY >= 0.43 && mousePositionY <= 0.64){
     if (mousePositionX >= 0.470 && mousePositionX < 0.515){
       var color = "red"
-      checkforclick(color);
+      checkForClick(color);
 
     } else if (mousePositionX >= 0.515 && mousePositionX < 0.560){
       var color = "green"
-      checkforclick(color);
+      checkForClick(color);
 
     } else if (mousePositionX >= 0.560 && mousePositionX < 0.610){
       var color = "blue"
-      checkforclick(color);
+      checkForClick(color);
 
     } else {
-      var color = "nothingX"
-      checkforclick(color);
+      // var color = "nothingX"
+      var color = ""
+      checkForClick(color);
     };
 
   } else {
-    var color = "nothingY"
-    checkforclick(color);
+    // var color = "nothingY"
+    var color = ""
+    checkForClick(color);
   };
 
   mouseHoverOnButton(color);
 };
 
 
-var checkforclick = function(color) {
+var checkForClick = function(color) {
   $('body').on('click', function(event){
     if (color === "red"){
-      console.log("Roastbeef")
+      changeDisplayText("We are pretty frickin' awesome")
     } else if (color === "green"){
-      console.log("Gundamwing")
+      changeDisplayText("Lasers")
     } else if (color === "blue"){
-      console.log("Beansprout")
+      changeDisplayText("What's up?")
     } else {
-      console.log("void")
+      changeDisplayText("")
     };
 
   });
 };
 
-
 var mouseHoverOnButton = function(color){
-  console.log(color)
+  if (color === "red"){
+    changeDisplayText("About Us")
+  } else if (color === "green"){
+    changeDisplayText("Products")
+  } else if (color === "blue"){
+    changeDisplayText("Contact Us")
+  } else {
+    changeDisplayText("")
+  };
+
   // case statement
   // if (color === "red"){
     // then
   // }
 }
+
+
+var changeDisplayText = function(buttonInput){
+  var textValue = buttonInput
+  $("p.textdisplay").text(textValue);
+};
 
 
 
@@ -107,3 +123,6 @@ var mouseHoverOnButton = function(color){
 // document.body.height
 // .container.width
 // .container.height
+
+
+// 800pm
