@@ -15,13 +15,15 @@ $(document).ready(function() {
 // blue:  X start at 0.560 - 0.610    Y  0.43 - 0.64
 
 var getLocationOfMouse = function() {
-    // $('body').on('click', function(event){
-  $('body').mousemove(function(event){
+    $('body').on('click', function(event){    //// This is for finding the mouse coordinates
+  // $('body').mousemove(function(event){
 
     var mousePositionX = (event.pageX / $('body').width());
     var mousePositionY = (event.pageY / $('body').height());
 
-    checkForButtons(mousePositionX, mousePositionY);
+    console.log(event.pageX, event.pageY)     //// This is for finding the mouse coordinates
+
+    // checkForButtons(mousePositionX, mousePositionY);
 
   });
 };

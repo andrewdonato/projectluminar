@@ -12,6 +12,6 @@ plan:
 
 [working on this] $ to select approximate button when button-container is clicked (depending on x,y position for the 3 buttons)
 
-[] $ to enact effect. (Hover text)
+[X] $ to enact effect. (Hover text)
 
 [] $ to enact effect. (opening page)
