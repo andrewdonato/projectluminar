@@ -26,7 +26,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  /*background-size: 102% 102%;*/
+  
 }
 
 /*.container {
@@ -38,8 +38,8 @@ body {
 .container img {
     /*position: center;*/ /*I think this is wrong*/
 
-    height: 104%;
-    width: 104%;
+    height: 100%;
+    width: 100%;
 }
 
 /*
@@ -71,7 +71,7 @@ a .aboutusbutton :hover {
   z-index:  100;
   /*left: 100px;*/
   /*width: 700px;*/
-  width: 104%;
+  width: 99%;
   height: 50%;
   margin-left: auto;
   margin-right: auto;
