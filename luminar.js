@@ -15,8 +15,8 @@ $(document).ready(function() {
 // blue:  X start at 0.560 - 0.610    Y  0.43 - 0.64
 
 var getLocationOfMouse = function() {
-    $('body').on('click', function(event){    //// This is for finding the mouse coordinates
-  // $('body').mousemove(function(event){
+    // $('body').on('click', function(event){    //// This is for finding the mouse coordinates
+  $('body').mousemove(function(event){
 
     var mousePositionX = (event.pageX / $('body').width());
     var mousePositionY = (event.pageY / $('body').height());
@@ -65,17 +65,17 @@ var checkForClick = function(color) {
   $('body').on('click', function(event){
 
     //// for figuring out mouse X,Y
-    changeDisplayText(event.pageX + ", " + event.pageY)
+    // changeDisplayText(event.pageX + ", " + event.pageY)
 
-    // if (color === "red"){
-    //   changeDisplayText("red clicked")
-    // } else if (color === "green"){
-    //   changeDisplayText("green clicked")
-    // } else if (color === "blue"){
-    //   changeDisplayText("blue clicked")
-    // } else {
-    //   changeDisplayText("")
-    // };
+    if (color === "red"){
+      changeDisplayText("red clicked")
+    } else if (color === "green"){
+      changeDisplayText("green clicked")
+    } else if (color === "blue"){
+      changeDisplayText("blue clicked")
+    } else {
+      changeDisplayText("")
+    };
 
   });
 };
