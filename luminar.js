@@ -23,7 +23,7 @@ var getLocationOfMouse = function() {
 
     console.log(event.pageX, event.pageY)     //// This is for finding the mouse coordinates
 
-    // checkForButtons(mousePositionX, mousePositionY);
+    checkForButtons(mousePositionX, mousePositionY);
 
   });
 };
