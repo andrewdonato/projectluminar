@@ -68,7 +68,7 @@ a .aboutusbutton :hover {
   border-style: solid;
 */
   position: absolute;
-  z-index:  100;
+  z-index:  98;
   /*left: 100px;*/
   /*width: 700px;*/
   width: 99%;

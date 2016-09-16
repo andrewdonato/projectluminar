@@ -34,26 +34,27 @@ var checkForButtons = function(mousePositionX, mousePositionY) {
   if(mousePositionY >= 0.43 && mousePositionY <= 0.64){
     if (mousePositionX >= 0.470 && mousePositionX < 0.515){
       var color = "red"
-      checkForClick(color);
+      // checkForClick(color);
 
     } else if (mousePositionX >= 0.515 && mousePositionX < 0.560){
       var color = "green"
-      checkForClick(color);
+      // checkForClick(color);
 
     } else if (mousePositionX >= 0.560 && mousePositionX < 0.610){
       var color = "blue"
-      checkForClick(color);
+      // checkForClick(color);
 
     } else {
       // var color = "nothingX"
       var color = ""
-      checkForClick(color);
+      // checkForClick(color);
     };
+    checkForClick(color);
 
   } else {
     // var color = "nothingY"
-    var color = ""
-    checkForClick(color);
+    // var color = ""
+    // checkForClick(color);
   };
 
   mouseHoverOnButton(color);
@@ -62,15 +63,19 @@ var checkForButtons = function(mousePositionX, mousePositionY) {
 
 var checkForClick = function(color) {
   $('body').on('click', function(event){
-    if (color === "red"){
-      changeDisplayText("We are pretty frickin' awesome")
-    } else if (color === "green"){
-      changeDisplayText("Lasers")
-    } else if (color === "blue"){
-      changeDisplayText("What's up?")
-    } else {
-      changeDisplayText("")
-    };
+
+    //// for figuring out mouse X,Y
+    changeDisplayText(event.pageX + ", " + event.pageY)
+
+    // if (color === "red"){
+    //   changeDisplayText("red clicked")
+    // } else if (color === "green"){
+    //   changeDisplayText("green clicked")
+    // } else if (color === "blue"){
+    //   changeDisplayText("blue clicked")
+    // } else {
+    //   changeDisplayText("")
+    // };
 
   });
 };
