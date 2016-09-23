@@ -35,11 +35,31 @@ body {
     overflow: hidden;
 }*/
 
+* {
+  border: 3px solid #73AD21;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  background-color: #F0F8FF;
+}
+
+
+.navigationbarcontainer {
+  background-color: #F0F8FF;
+  position: fixed;
+}
+
 .container img {
     /*position: center;*/ /*I think this is wrong*/
 
     height: 100%;
     width: 100%;
+}
+
+.allcontent {
+  /*max-width: 100%;*/
 }
 
 /*
