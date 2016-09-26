@@ -21,7 +21,8 @@ html {
 
 body {
   background-image: ../projectluminar/resources/luminar.png;
-  background-color: #100F0D;
+  /*background-color: #100F0D;*/
+  background-color: yellow;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -43,7 +44,7 @@ body {
 }*/
 
 * {
-  /*border: 3px solid #73AD21;*/
+  border: 3px solid #73AD21;
 }
 
 .container {
@@ -55,6 +56,7 @@ body {
 .navigationbarcontainer {
   background-color: #F0F8FF;
   position: fixed;
+  width: 100%;
 }
 
 .container img {
