@@ -55,9 +55,13 @@ body {
 
 
 .navigationbarcontainer {
-  /*background-color: #F0F8FF;*/
+  background-color: #F0F8FF;
   position: fixed;
   width: 100%;
+  top: 0px;
+  border: 2px solid red;
+  
+
 }
 
 .navigationbarcontainer p {
