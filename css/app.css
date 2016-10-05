@@ -21,7 +21,8 @@ html {
 
 body {
   background-image: ../projectluminar/resources/luminar.png;
-  background-color: #100F0D;  /*Luminar's Black*/
+  /*background-color: #100F0D;*/  /*Luminar's Black*/
+  background-color: #F0F8FF;    /*Light blue*/ 
   
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -48,9 +49,15 @@ body {
 /*border: 3px solid #73AD21;*/
 }
 
-.container {
+.landingcontainer {
   /*position: fixed;*/
-  max-width: 100%;
+  /*max-width: 100%;*/
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 
@@ -74,21 +81,52 @@ body {
   height: 100%;
   width: 100%;
 
-  opacity: 0;
+  /*opacity: 0;*/
 }
 
-.maincontent {
+.allcontentcontainer {
   /*max-width: 100%;*/
   /*background: yellow;*/
-  display: block;
-  background-color: #F0F8FF;
+  /*display: block;*/
+  /*background-color: #F0F8FF;*/
 
 
 }
 
-.content {
-  max-width: 100%;
-  word-wrap: break-word;
+.title {
+  font-family: 'Maven Pro';
+  font-size: 3em;
+  margin-bottom: 0;
+  color: #00ccff;
+  /*text-shadow:
+  1px 0px 1px #ccc, 0px 1px 1px #eee,
+  2px 1px 1px #ccc, 1px 2px 1px #eee,
+  3px 2px 1px #ccc, 2px 3px 1px #eee,
+  4px 3px 1px #ccc, 3px 4px 1px #eee,
+  5px 4px 1px #ccc, 4px 5px 1px #eee,
+  6px 5px 1px #ccc, 5px 6px 1px #eee,
+  7px 6px 1px #ccc;*/
+}
+
+
+.slogan {
+  color: #00ccff;
+  text-align: center;
+  margin-top: 220px;
+  font-size: 30px;
+}
+
+
+.informationalcontent {
+  /*max-width: 100%;*/
+  /*word-wrap: break-word;*/
+  width: 100%;
+  background-color: white;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  padding-left: 20%;
+  padding-right: 20%;
+  opacity: 0.85;
 }
 
 /*
