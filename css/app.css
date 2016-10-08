@@ -1,3 +1,18 @@
+/*
+Luminar's colors
+
+Black: #100F0D;
+Gray: #7C7D7E;
+Red: #C71D2B;
+Green: #51C281;
+Blue: #324EA9;
+
+The light blue I've been using: #F0F8FF;
+
+*/
+
+
+
 /**, *:before, *:after {*/
 
 
@@ -25,6 +40,10 @@ time, mark, audio, video {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+
+
+  /*-webkit-margin-before: 0px;*/
+  /*-webkit-margin-after: 0px;*/
 
 
   margin: 0;
@@ -85,12 +104,16 @@ body {
   /*position: fixed;*/
   /*max-width: 100%;*/
   margin: 0;
+  margin-bottom: 2%;
   padding: 0;
+
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  background-color: red;
+  
+  /*background-color: red;*/
+  background-color: white;
 }
 
 
@@ -99,9 +122,9 @@ body {
   margin: 0;
 
   position: fixed;
-  /*left: -0.1%;*/
-  /*left: -0.1%;*/
-  top: 0px;
+  
+  left: 1.8%;
+  /*top: 0px;*/
   z-index: 90;
   
   /*background-color: red;*/
@@ -109,13 +132,13 @@ body {
   background-color: #F0F8FF;
 
   /*margin-left: 10px;  */
-  margin-left: 1%;  
+  /*margin-left: 1%;  */
 
   /*padding: 5px;*/
   padding: 0.5%;
 
   height: 5%;
-  width: 100%;
+  width: 101%;
   
   opacity: 100%;
   
@@ -123,6 +146,12 @@ body {
 
 .navigationbarcontainer p {
     color: #768989;
+}
+
+.navigationmenu {
+  display: block;
+  background-color: #7C7D7E;
+  width: 8%;
 }
 
 .container img {
@@ -149,18 +178,15 @@ body {
 
 
 
-/*
-Luminar's colors
 
-Black: #100F0D;
-Gray: #7C7D7E;
-Red: #C71D2B;
-Green: #51C281;
-Blue: #324EA9;
+.slogan {
+  /*color: #00ccff;*/
+  text-align: center;
+  /*margin-top: 220px;*/
+  margin-top: 20%;
+  /*font-size: 30px;*/
+}
 
-The light blue I've been using: #F0F8FF;
-
-*/
 
 
 .title {
@@ -179,13 +205,6 @@ The light blue I've been using: #F0F8FF;
 }
 
 
-.slogan {
-  /*color: #00ccff;*/
-  text-align: center;
-  margin-top: 220px;
-  font-size: 30px;
-}
-
 
 .informationalcontent {
   /*max-width: 100%;*/
@@ -194,18 +213,22 @@ The light blue I've been using: #F0F8FF;
   /*margin: auto;*/
   /*margin-left: auto;*/
   /*margin-right: auto;*/
-
-  left: 50%;
+  
+  position: relative;
+  left: 1.2%;
 
   width: 100%;
-  background-color: green;
+  /*background-color: green;*/
+  background-color: white;
+
   /*padding-top: 110px;*/
   padding-top: 15%;
   /*padding-bottom: 110px;*/
   padding-left: 20%;
-  padding-right: 20%;
+  padding-right: 20%; 
   opacity: 0.85;
 }
+
 
 .footer {
   /*max-width: 100%;*/
