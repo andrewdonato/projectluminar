@@ -104,7 +104,7 @@ body {
   /*position: fixed;*/
   /*max-width: 100%;*/
   margin: 0;
-  margin-bottom: 2%;
+  margin-bottom: 25px;
   padding: 0;
 
   border: 0;
@@ -124,6 +124,7 @@ body {
   position: fixed;
   
   left: 1.8%;
+  /*left: 23px;*/
   /*top: 0px;*/
   z-index: 90;
   
@@ -134,8 +135,8 @@ body {
   /*margin-left: 10px;  */
   /*margin-left: 1%;  */
 
-  /*padding: 5px;*/
-  padding: 0.5%;
+  /*padding: 0.5%;*/
+  padding: 7px;
 
   height: 35px;
   width: 101%;
@@ -150,7 +151,8 @@ body {
 
 .navigationmenu {
   display: block;
-  margin-top: 0.35%;
+  /*margin-top: 0.35%;*/
+  margin-top: 4px;
   background-color: #7C7D7E;
   width: 80px;
 }
