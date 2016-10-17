@@ -2,9 +2,20 @@ $(document).ready(function() {
 
   // $(".container").width($(window).width());
 
-  getLocationOfMouse();
+  // getLocationOfMouse();
+
+  showNavigationMenu();
 
 });
+
+
+var showNavigationMenu = function() {
+  $('showNavigationMenuButton').on('click', function(event){
+    event.preventDefault();
+    $('navigationmenu').toggle();
+  });
+}
+
 
 // Y positions of lines ~ 0.47 - 0.61
 // Below positions are enlarged to be easier to click
