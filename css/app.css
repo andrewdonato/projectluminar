@@ -150,7 +150,9 @@ body {
 }
 
 .navigationmenu {
+  /*display: none;*/
   display: hidden;
+  
   /*margin-top: 0.35%;*/
   margin-top: 4px;
   padding-top: 4px;
