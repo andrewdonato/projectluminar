@@ -8,11 +8,13 @@ $(document).ready(function() {
 
 });
 
-
 var showNavigationMenu = function() {
-  $('showNavigationMenuButton').on('click', function(event){
+  // $('.showNavigationMenuButton').on('click', console.log("pineapple"))};
+// var showNavigationMenu = function() {
+  $('.showNavigationMenuButton').on('click', function(event){
     event.preventDefault();
-    $('navigationmenu').toggle();
+    console.log("this is working!");
+//     $('.navigationmenu').toggle();
   });
 }
 
