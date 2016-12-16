@@ -69,9 +69,11 @@ time, mark, audio, video {
 */
 
 body {
-  background-image: ../projectluminar/resources/luminar.png;
-  /*background-color: #100F0D;*/  /*Luminar's Black*/
-  background-color: #F0F8FF;    /*Light blue*/ 
+  /*background-image: ../projectluminar/resources/luminar.png;*/
+  background-color: #100F0D;    /*Luminar's Black*/
+  /*background-color: #FFFFFF;  */  /*White*/
+  /*background-color: #000000;  */  /*Black*/
+  /*background-color: #F0F8FF;  */  /*Light blue*/
   
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -82,13 +84,38 @@ body {
   padding: 0;
   border: 0;
   outline: 0;
-  
+
+
+
   /*width: 99%;*/
   /*background: red;*/
   
   /*overflow: scroll;*/
 
 }
+
+/*
+.landingimage {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+*/
+
+.landingimage img {
+
+
+  /*resize: both;*/
+  /*overflow: auto;*/
+  
+  height: 100%;
+  width: 100%;
+  
+}
+
+
 
 /*.container {
     width: 418px;
@@ -98,6 +125,7 @@ body {
 
 * {
 /*border: 1px solid #73AD21;*/
+
 }
 
 .landingcontainer {

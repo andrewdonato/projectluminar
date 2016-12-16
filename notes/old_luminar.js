@@ -1,16 +1,22 @@
-//// luminar.js
-
+//// old_luminar.js
 
 $(document).ready(function() {
 
-  detectClick();
+  // $(".container").width($(window).width());
+
+  // getLocationOfMouse();
+
+  showNavigationMenu();
 
 });
 
-
-var detectClick = function(){
-  $(".body").on("click", function(){
-    console.log("Potato")
+var showNavigationMenu = function() {
+  // $('.showNavigationMenuButton').on('click', console.log("pineapple"))};
+// var showNavigationMenu = function() {
+  $('.showNavigationMenuButton').on('click', function(event){
+    event.preventDefault();
+    console.log("this is working!");
+//     $('.navigationmenu').toggle();
   });
 }
 
